@@ -99,7 +99,29 @@ Headers: x-api-key: {从.env读取SUPADATA_API_KEY}
 - overallRecommendation: 总体建议
 - topInsightsToExpand: [{ insightId, reason }]
 
-#### 4.4 保存结果
+#### 4.4 字段完整性验证（关键步骤）
+生成 JSON 后，必须验证所有必填字段是否存在：
+
+**必填字段检查清单**：
+1. `meta` - 视频元信息
+2. `overview` - 内容速览
+3. `guest` - 嘉宾背景
+4. `insights[]` - 核心观点数组
+5. `glossary[]` - 概念词典数组
+6. `insightRelations` - 观点关系
+7. `goldenQuotes[]` - 金句收集数组
+8. **`qualityAssessment` - 质量评估**（易漏！）
+   - dimensions.informationDensity
+   - dimensions.uniqueness
+   - dimensions.evidenceStrength
+   - dimensions.accessibilityScore
+   - dimensions.creationValue
+   - overallRecommendation
+   - topInsightsToExpand
+
+如果发现缺少字段，必须补充完整后再保存。
+
+#### 4.5 保存结果
 组装完整JSON（包含meta信息），保存到：
 ```
 youtube-insight-dashboard/data/analyses/{videoId}.json

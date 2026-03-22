@@ -288,6 +288,8 @@ curl http://localhost:3001/api/analyze/videos
 | 端口被占用 | 服务重复启动 | `netstat` 查找并 `taskkill` |
 | Skill 找不到命令 | 文件名错误 | 检查 `.claude/commands/` 目录 |
 | 视频详情 404 | API 端口不一致 | 统一使用 3001 端口 |
+| 详情页显示 Video not found | 分析 JSON 缺少必填字段 | 检查 `qualityAssessment` 等字段是否存在 |
+| 详情页报错 qualityAssessment undefined | AI 生成内容时漏掉必填字段 | 手动补充字段，并在 skill 中添加验证步骤 |
 
 ---
 
