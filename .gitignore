@@ -38,3 +38,6 @@ data/analyses/*.json
 temp_*.json
 temp_*.xml
 temp_*.txt
+
+# Keep transcripts but not analyses
+!data/transcripts/*.json
