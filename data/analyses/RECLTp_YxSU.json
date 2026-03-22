@@ -1,0 +1,696 @@
+{
+  "meta": {
+    "videoId": "RECLTp_YxSU",
+    "videoTitle": "Essentials: Tools for Setting & Achieving Goals | Dr. Emily Balcetis",
+    "videoUrl": "https://www.youtube.com/watch?v=RECLTp_YxSU",
+    "channelId": "UCnF1zL3jt4eG9ueCfrXz-Jg",
+    "channelName": "Huberman Lab",
+    "channelSlug": "huberman-lab",
+    "thumbnailUrl": "",
+    "duration": "63:56",
+    "publishedAt": "",
+    "analyzedAt": "2026-03-22T00:00:00.000Z",
+    "outputLevel": "creator"
+  },
+  "overview": {
+    "oneSentenceSummary": "通过视觉焦点收窄（聚焦目标）而非视野扩展，可以显著提升运动表现和目标达成效率，研究显示可提升27%的运动速度并减少17%的主观疼痛感。",
+    "coreInsightsSummary": "1. 精英运动员采用狭窄视觉焦点而非广泛视野；2. 收窄注意力可提升27%运动表现并减少17%疼痛感；3. 视觉化目标设定（梦想板）可能适得其反，降低动力；4. 设定目标时需同时考虑障碍而非仅幻想成功。",
+    "targetAudience": "希望提升目标实现效率、克服拖延和倦怠的成年人，尤其是健身/跑步爱好者、自我提升追求者",
+    "creationValue": {
+      "score": 5,
+      "reason": "提供了可立即执行的视觉焦点工具，简单有效且有科学背书，颠覆了直觉性的认知"
+    }
+  },
+  "guest": {
+    "name": "Dr. Emily Balcetis",
+    "title": "纽约大学心理学教授，研究方向为视觉与动机",
+    "uniqueness": "她是少数将视觉科学应用于目标设定和运动表现的心理学研究者，积累了奥运会选手和普通人的实验数据",
+    "potentialBias": [
+      "主要研究对象为视觉相关干预手段，可能高估其效果而忽视其他因素",
+      "研究样本可能偏向特定人群（如跑步者），对其他领域泛化性待验证"
+    ],
+    "readingAdvice": "重点关注具体的视觉焦点技巧（第25-30分钟实验部分），跳过关于梦想板无效性的理论推导部分"
+  },
+  "insights": [
+    {
+      "id": "insight-1",
+      "title": "精英运动员采用视觉焦点收窄策略",
+      "timeRange": {
+        "start": "5:20",
+        "end": "10:30"
+      },
+      "coreArgument": "奥运会短跑选手并非像想象的那样注意周围环境（对手、观众），而是将视觉焦点收窄到极点，几乎只关注前方目标",
+      "evidences": [
+        {
+          "type": "case",
+          "content": "400米奥运金牌得主在比赛中完全忽略周围环境"
+        },
+        {
+          "type": "quote",
+          "content": "他们说自己是hyperfocused，像聚光灯打在目标上"
+        },
+        {
+          "type": "data",
+          "content": "Joan Benois Samuelson（著名马拉松选手）专注于前方跑者短裤直到超越"
+        }
+      ],
+      "goldenQuote": {
+        "original": "They assume this narrowed focus of attention almost like a spotlight is shining on a target.",
+        "translation": "他们采用这种极度收窄的注意力焦点，就像一束聚光灯打在目标上",
+        "timestamp": "6:38"
+      },
+      "plainExplanation": "厉害的人跑步时不是左看右看，而是盯着一个点（比如终点线或者前方的人），像有眼罩一样只看前面",
+      "conceptExplanations": [
+        {
+          "term": "narrowed focus of attention",
+          "explanation": "收窄注意力焦点，把视觉范围缩小到只关注一个目标"
+        }
+      ]
+    },
+    {
+      "id": "insight-2",
+      "title": "收窄视觉焦点可提升27%运动表现",
+      "timeRange": {
+        "start": "10:30",
+        "end": "14:30"
+      },
+      "coreArgument": "研究发现，训练普通人使用视觉焦点收窄技术，能在相同运动强度下提升27%的速度，并减少17%的主观疼痛感",
+      "evidences": [
+        {
+          "type": "data",
+          "content": "绑着负重背心（体重15%）进行高抬腿测试，实验组比对照组快27%"
+        },
+        {
+          "type": "data",
+          "content": "实验组报告疼痛感降低17%"
+        }
+      ],
+      "goldenQuote": {
+        "original": "They were able to move 27% faster, and they said it hurt 17% less.",
+        "translation": "他们的移动速度快了27%，而且主观感受疼痛降低了17%",
+        "timestamp": "12:52"
+      },
+      "plainExplanation": "教普通人用盯着一个点跑步的方法，他们跑得更快了，而且觉得没那么累",
+      "conceptExplanations": []
+    },
+    {
+      "id": "insight-3",
+      "title": "视觉焦点应该是圆形光圈而非线条",
+      "timeRange": {
+        "start": "14:30",
+        "end": "17:00"
+      },
+      "coreArgument": "有效焦点不是横跨视野的线，而是一个圆形的「光圈」照亮目标，如终点线某一点或停止标志",
+      "evidences": [
+        {
+          "type": "quote",
+          "content": "想象一个圆形的光圈照亮某个目标"
+        },
+        {
+          "type": "analogy",
+          "content": "就像赛跑时在自己跑道上想象一个光圈，只有那里是亮的"
+        }
+      ],
+      "goldenQuote": {
+        "original": "Imagine a circle of light that's shining on some target.",
+        "translation": "想象一个圆形的光圈，正照亮着某个目标",
+        "timestamp": "15:00"
+      },
+      "plainExplanation": "不要盯着整条终点线，而是盯着线上一个点，想象那里有个光圈",
+      "conceptExplanations": [
+        {
+          "term": "circular focus point",
+          "explanation": "视觉焦点应该是一个点而非一条线"
+        }
+      ]
+    },
+    {
+      "id": "insight-4",
+      "title": "梦想板和视觉化可能适得其反",
+      "timeRange": {
+        "start": "19:00",
+        "end": "24:30"
+      },
+      "coreArgument": "视觉化目标成功（如梦想板）会降低生理唤醒水平（血压下降），导致人感觉已经「完成」了目标，反而减少行动动力",
+      "evidences": [
+        {
+          "type": "data",
+          "content": "研究表明，梦想板等视觉化练习会降低收缩压"
+        },
+        {
+          "type": "quote",
+          "content": "收缩压是身体准备行动的指标"
+        },
+        {
+          "type": "logic",
+          "content": "血压下降意味着身体进入放松状态，减少了行动动机"
+        }
+      ],
+      "goldenQuote": {
+        "original": "They start to sort of rest on their laurels. They're actually measured systolic blood pressure and heart rate, and they found that people who do that, their systolic blood pressure decreases.",
+        "translation": "他们开始躺在功劳簿上休息。实际上他们测量了收缩压和心率，发现这样做的人收缩压下降了",
+        "timestamp": "22:22"
+      },
+      "plainExplanation": "老幻想成功（做梦想板）会让你感觉已经成功了，身体就放松了，反而不想动了",
+      "conceptExplanations": [
+        {
+          "term": "systolic blood pressure",
+          "explanation": "收缩压，血压读数的上数值，身体准备行动的生理指标"
+        },
+        {
+          "term": "vision board",
+          "explanation": "梦想板/愿景板，把想要的东西图片贴在一起"
+        }
+      ]
+    },
+    {
+      "id": "insight-5",
+      "title": "设定目标需要同时考虑实现路径和障碍",
+      "timeRange": {
+        "start": "25:30",
+        "end": "29:00"
+      },
+      "coreArgument": "有效目标设定不应只关注「是什么」，还要思考「怎么做」和「会遇到什么障碍」，研究显示提前预判障碍能提升长期动力",
+      "evidences": [
+        {
+          "type": "logic",
+          "content": "不能只做梦想板，要分解成可执行的子目标"
+        },
+        {
+          "type": "quote",
+          "content": "规划大方向，同时分解成更具体的"
+        },
+        {
+          "type": "analogy",
+          "content": "像船上发现要沉了，不是现在开始找救生衣，而是早就知道在哪里"
+        }
+      ],
+      "goldenQuote": {
+        "original": "If you were on a boat and the boat started to sink, that's not the time you want to start looking for life jackets, you already want to know where one is so you can go get it.",
+        "translation": "如果你在船上，船开始下沉，你不是现在开始找救生衣，而是早就应该知道在哪里，这样你就能马上去拿",
+        "timestamp": "29:00"
+      },
+      "plainExplanation": "不要只想着要达到什么目标，还要提前想好会遇到什么困难、怎么解决",
+      "conceptExplanations": [
+        {
+          "term": "sub-goals",
+          "explanation": "子目标，把大目标拆分成2周内可完成的小目标"
+        },
+        {
+          "term": "obstacle planning",
+          "explanation": "障碍规划，提前想好实现目标过程中可能遇到的困难"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "收窄注意力焦点",
+      "originalTerm": "Narrowed focus of attention",
+      "context": "运动心理学/目标设定",
+      "explanation": "把视觉注意力集中在一个小点上，而不是分散在周围环境"
+    },
+    {
+      "term": "收缩压",
+      "originalTerm": "Systolic blood pressure",
+      "context": "生理指标",
+      "explanation": "血压读数的高值，代表身体为行动做准备的生理状态"
+    },
+    {
+      "term": "梦想板",
+      "originalTerm": "Vision board",
+      "context": "目标设定工具",
+      "explanation": "把想要达成的目标图片贴在一起，视觉化呈现"
+    },
+    {
+      "term": "视觉焦点收窄",
+      "originalTerm": "Visual focus narrowing",
+      "context": "具体技巧",
+      "explanation": "想象一个圆形光圈只照亮目标点，忽略周围事物"
+    },
+    {
+      "term": "子目标",
+      "originalTerm": "Sub-goals",
+      "context": "目标分解",
+      "explanation": "把大目标拆分成2周内可完成的小步骤"
+    },
+    {
+      "term": "障碍规划",
+      "originalTerm": "Obstacle planning",
+      "context": "目标设定",
+      "explanation": "提前预判可能遇到的困难并制定应对计划"
+    }
+  ],
+  "insightRelations": {
+    "causalChains": [
+      {
+        "from": "insight-1",
+        "relation": "启发了",
+        "to": "insight-2"
+      },
+      {
+        "from": "insight-4",
+        "relation": "导致需要",
+        "to": "insight-5"
+      }
+    ],
+    "parallels": [
+      {
+        "insights": ["insight-1", "insight-2", "insight-3"],
+        "description": "视觉焦点技巧系列：从发现现象→验证效果→具体方法"
+      }
+    ],
+    "dependencies": [
+      {
+        "insight": "insight-2",
+        "dependsOn": "insight-3"
+      },
+      {
+        "insight": "insight-5",
+        "dependsOn": "insight-4"
+      }
+    ],
+    "narrativeSummary": "视频先展示精英运动员的特殊视觉行为（收窄焦点），然后通过实验证明这确实有效，最后对比了常见的错误做法（梦想板），提出更科学的目标设定方法（分解目标+预判障碍）"
+  },
+  "goldenQuotes": [
+    {
+      "quote": "They assume this narrowed focus of attention almost like a spotlight is shining on a target.",
+      "timestamp": "6:38",
+      "context": "描述奥运会短跑选手的视觉策略",
+      "useCase": "解释视觉焦点概念时使用"
+    },
+    {
+      "quote": "They were able to move 27% faster, and they said it hurt 17% less.",
+      "timestamp": "12:52",
+      "context": "研究核心数据，展示收窄焦点的效果",
+      "useCase": "作为干货硬货直接引用"
+    },
+    {
+      "quote": "Imagine a circle of light that's shining on some target.",
+      "timestamp": "15:00",
+      "context": "教导如何具体操作视觉焦点技巧",
+      "useCase": "作为实操步骤的引导语"
+    },
+    {
+      "quote": "They start to sort of rest on their laurels. They're actually measured systolic blood pressure and heart rate, and they found that people who do that, their systolic blood pressure decreases.",
+      "timestamp": "22:22",
+      "context": "解释为什么梦想板可能适得其反",
+      "useCase": "颠覆认知时使用，制造「原来如此」的时刻"
+    },
+    {
+      "quote": "If you were on a boat and the boat started to sink, that's not the time you want to start looking for life jackets, you already want to know where one is so you can go get it.",
+      "timestamp": "29:00",
+      "context": "比喻说明为什么要提前规划障碍",
+      "useCase": "作为结尾升华或行动号召"
+    }
+  ],
+  "qualityAssessment": {
+    "dimensions": {
+      "informationDensity": {
+        "score": 5,
+        "note": "密集且可操作，每个技巧都有实验数据或案例支撑"
+      },
+      "uniqueness": {
+        "score": 4,
+        "note": "视觉焦点理论较为新颖，颠覆直觉；但障碍规划部分较为常见"
+      },
+      "evidenceStrength": {
+        "score": 5,
+        "note": "有奥运会选手访谈和对照组实验数据"
+      },
+      "accessibilityScore": {
+        "score": 5,
+        "note": "语言通俗，概念解释清楚，没有过多术语"
+      },
+      "creationValue": {
+        "score": 5,
+        "note": "非常适合内容创作，有具体技巧、有数据、有故事"
+      }
+    },
+    "overallRecommendation": "强烈推荐制作内容。这是一个「反常识+实操干货」的完美组合，有奥运会故事、有实验数据、有具体方法论，非常适合短视频和深度内容",
+    "topInsightsToExpand": [
+      {
+        "insightId": "insight-2",
+        "reason": "27%这个数字冲击力强，适合做标题和钩子"
+      },
+      {
+        "insightId": "insight-4",
+        "reason": "颠覆认知（梦想板没用），容易引发讨论和传播"
+      }
+    ]
+  },
+  "scriptStructure": {
+    "meta": {
+      "narrativeFramework": "认知颠覆型",
+      "coreHook": "你还在用梦想板设定目标？科学家说：这可能让你更不想动",
+      "uniqueAngle": "用视觉焦点替代幻想成功，奥运冠军也在用的目标达成术",
+      "targetDuration": "8-10分钟",
+      "difficulty": "入门"
+    },
+    "titles": {
+      "recommended": "为什么奥运冠军跑步时都在「发呆」？科学家发现了一个惊人的秘密",
+      "options": [
+        {
+          "title": "为什么奥运冠军跑步时都在「发呆」？科学家发现了一个惊人的秘密",
+          "type": "悬念型",
+          "strength": "用「发呆」制造反差，引发好奇，奥运冠军话题有吸引力",
+          "risk": "需要配合内容解释清楚是「视觉焦点收窄」"
+        },
+        {
+          "title": "做梦想板会让你更不想动？科学家找到了真正有效的目标达成方法",
+          "type": "揭秘型",
+          "strength": "直接颠覆常识，标题党但不low，有科学背书",
+          "risk": "可能引起争议，但争议利于传播"
+        },
+        {
+          "title": "一个动作提升27%运动表现！奥运冠军私藏的目标达成术",
+          "type": "数字型",
+          "strength": "27%数字冲击力强，奥运冠军背书有说服力",
+          "risk": "数字型标题泛滥，需要配合封面差异化"
+        },
+        {
+          "title": "你设定的目标为什么总是完不成？科学家：因为你的方法错了",
+          "type": "痛点型",
+          "strength": "直击痛点（目标完不成），每个人都经历过",
+          "risk": "稍微标题党，但有硬货支撑"
+        }
+      ]
+    },
+    "opening": {
+      "type": "反常识型",
+      "hook": "你是不是也干过这件事：做一个漂亮的梦想板，把想要的房子、车子、年薪都贴上去，然后想象自己已经成功了？恭喜你，你可能正在亲手杀死自己的动力。",
+      "avoidCliche": "不要用「今天我想分享一个关于目标设定的科学方法」这种老套开场",
+      "emotionGoal": "好奇+轻微焦虑",
+      "duration": "30-45秒"
+    },
+    "structure": [
+      {
+        "order": 1,
+        "section": "反常识开场：梦想板的陷阱",
+        "purpose": "颠覆认知，让观众意识到常用方法可能有害",
+        "keyPoints": [
+          "梦想板是很多人都在用的目标设定方法",
+          "但研究发现：它可能让你更不想动",
+          "原因是：幻想成功会降低血压，身体进入「已经完成」的放松状态"
+        ],
+        "supportingElements": {
+          "data": "收缩压是身体准备行动的指标，血压下降意味着身体放松",
+          "example": "就像有人说要写书，别人都说「你肯定能写」，结果他们获得了足够的多巴胺，反而从来不写"
+        },
+        "quotesToUse": ["他们开始躺在功劳簿上休息。测量发现收缩压下降了"],
+        "transition": "那什么是真正有效的方法？让我们看看奥运冠军怎么做。",
+        "emotionCurve": "从疑惑到惊讶",
+        "pacing": "中速",
+        "duration": "1分30秒"
+      },
+      {
+        "order": 2,
+        "section": "奥运冠军的视觉策略",
+        "purpose": "展示精英运动员的特殊技巧，引发学习欲望",
+        "keyPoints": [
+          "以为奥运冠军跑步时会注意周围环境（对手、观众）？",
+          "错！他们几乎完全忽略周围，只盯着一个目标",
+          "400米奥运金牌得主、著名马拉松选手Joan Benois Samuelson都这样做",
+          "他们说：感觉像一束聚光灯打在目标上"
+        ],
+        "supportingElements": {
+          "data": "采访多位奥运选手的发现",
+          "example": "Joan Samuelson专注于前方跑者的短裤，直到超越"
+        },
+        "quotesToUse": ["他们采用极度收窄的注意力焦点，就像一束聚光灯打在目标上"],
+        "transition": "这不仅仅是奥运冠军的特殊能力，普通人也可以学会。",
+        "emotionCurve": "从惊讶到期待",
+        "pacing": "中速",
+        "duration": "2分钟"
+      },
+      {
+        "order": 3,
+        "section": "科学验证：27%的提升",
+        "purpose": "用实验数据证明方法有效，建立信任",
+        "keyPoints": [
+          "研究者做了对照实验",
+          "让普通人绑着15%体重负重做高抬腿测试",
+          "一组用视觉焦点收窄，一组自然观看",
+          "结果：实验组快27%，疼痛感降低17%"
+        ],
+        "supportingElements": {
+          "data": "27%速度提升，17%疼痛降低"
+        },
+        "quotesToUse": ["他们移动速度快了27%，而且主观感受疼痛降低了17%"],
+        "transition": "这个方法不难，只需要做一个简单的练习。",
+        "emotionCurve": "从期待到兴奋",
+        "pacing": "慢速，强调数据",
+        "duration": "2分钟"
+      },
+      {
+        "order": 4,
+        "section": "实操：如何聚焦",
+        "purpose": "给出具体可执行的行动步骤",
+        "keyPoints": [
+          "不是盯着整条终点线，而是盯着线上一个点",
+          "想象一个圆形的光圈照亮那个点",
+          "像给自己戴了眼罩，周围都是模糊的",
+          "到达后，重复选择下一个目标"
+        ],
+        "supportingElements": {
+          "analogy": "就像在跑道上，想象只有自己那部分被照亮"
+        },
+        "quotesToUse": ["想象一个圆形的光圈，正照亮着某个目标"],
+        "transition": "但光有技巧不够，你设定目标的方式也需要调整。",
+        "emotionCurve": "从兴奋到踏实",
+        "pacing": "慢速",
+        "duration": "1分30秒"
+      },
+      {
+        "order": 5,
+        "section": "目标设定的正确姿势",
+        "purpose": "补充完整的目标设定方法论",
+        "keyPoints": [
+          "不要只幻想成功，要分解成可执行的子目标",
+          "2周内能完成的才算有效目标",
+          "更重要的是：提前想好会遇到什么障碍",
+          "比喻：船要沉了，不是现在开始找救生衣，而是早就知道在哪"
+        ],
+        "supportingElements": {
+          "analogy": "像在船上，不是下沉时找救生衣，而是早就知道在哪"
+        },
+        "quotesToUse": ["如果你在船上，船开始下沉，不是现在开始找救生衣，而是早就应该知道在哪里"],
+        "transition": "最后总结一下今天的关键信息。",
+        "emotionCurve": "从清晰到踏实",
+        "pacing": "中速",
+        "duration": "2分钟"
+      }
+    ],
+    "closing": {
+      "elevation": "与其幻想成功，不如聚焦行动。用一个点、一束光，照亮你真正该走的方向。",
+      "callToAction": "下次跑步或做目标时，试着把视野收窄到只有一个点。告诉我，你试过之后效果如何？",
+      "memorableEnd": "与其做梦想板，不如盯着一个点。",
+      "emotionGoal": "踏实+激励"
+    },
+    "fullScript": {
+      "totalWordCount": "约1800字",
+      "estimatedDuration": "8-10分钟",
+      "sections": [
+        {
+          "sectionTitle": "开场钩子",
+          "lines": [
+            "你是不是也干过这件事：",
+            "做一个漂亮的梦想板，",
+            "把想要的房子、车子、年薪都贴上去，",
+            "然后想象自己已经成功了？",
+            "",
+            "恭喜你，",
+            "你可能正在亲手杀死自己的动力。"
+          ],
+          "visualCues": ["梦想板图片"],
+          "duration": "20秒"
+        },
+        {
+          "sectionTitle": "反常识揭示",
+          "lines": [
+            "这不是我说的，",
+            "是纽约大学心理学教授Dr. Emily Balcetis的研究发现。",
+            "她告诉Huberman：",
+            "当你幻想目标达成的时候，",
+            "你的收缩压会下降。",
+            "",
+            "收缩压是什么？",
+            "是你身体准备行动的指标。",
+            "血压下降了，",
+            "身体就进入了一种「我已经完成了」的放松状态。",
+            "",
+            "所以梦想板做完了，",
+            "你感觉良好，",
+            "但实际上你不想动了。"
+          ],
+          "visualCues": ["血压变化图示"],
+          "duration": "40秒"
+        },
+        {
+          "sectionTitle": "奥运冠军案例",
+          "lines": [
+            "那真正有效的方法是什么？",
+            "让我们看看奥运冠军怎么做。",
+            "",
+            "你是不是觉得，",
+            "短跑选手比赛时肯定特别注意周围？",
+            "看对手在哪、观众在干嘛？",
+            "",
+            "研究发现：完全不是。",
+            "他们几乎完全忽略周围环境。",
+            "",
+            "400米奥运金牌得主，",
+            "跑的时候什么都不看，",
+            "就盯着一个点。",
+            "",
+            "著名马拉松选手Joan Benois Samuelson也一样，",
+            "她就盯着前面那个人的短裤，",
+            "一直跑到超越为止。",
+            "",
+            "他们说：",
+            "感觉像一束聚光灯打在目标上。"
+          ],
+          "visualCues": ["奥运选手跑步照片"],
+          "duration": "1分钟"
+        },
+        {
+          "sectionTitle": "科学实验数据",
+          "lines": [
+            "这不只是冠军的特殊能力。",
+            "研究者做了对照实验。",
+            "",
+            "让两组人绑着很重的背心，",
+            "做高抬腿测试。",
+            "重到什么程度？",
+            "体重的15%。",
+            "",
+            "一组用他们的自然视角，",
+            "一组被要求收窄视觉焦点。",
+            "",
+            "结果出来了。",
+            "实验组：",
+            "移动速度快了27%。",
+            "主观感受的疼痛，",
+            "降低了17%。",
+            "",
+            "同样的努力，",
+            "更好的结果，",
+            "而且没那么累。"
+          ],
+          "visualCues": ["实验数据图表：27%和17%"],
+          "duration": "1分30秒"
+        },
+        {
+          "sectionTitle": "实操步骤",
+          "lines": [
+            "这个方法怎么用？",
+            "",
+            "不是让你盯着整条终点线。",
+            "盯着一条线，",
+            "你的视野还是散的。",
+            "",
+            "盯着一个点。",
+            "",
+            "想象你前面有一个圆形的光圈，",
+            "只有那个点是亮的，",
+            "周围都是暗的。",
+            "",
+            "像给自己戴了眼罩。",
+            "跑的时候，",
+            "你就只看那个光圈。",
+            "",
+            "到了之后怎么办？",
+            "再找一个点。",
+            "再想象一个光圈。",
+            "继续前进。"
+          ],
+          "visualCues": ["聚焦效果示意图"],
+          "duration": "1分钟"
+        },
+        {
+          "sectionTitle": "目标设定方法论",
+          "lines": [
+            "光有这个还不够。",
+            "设定目标的方式也很重要。",
+            "",
+            "不要只想着「我要达成什么」。",
+            "还要想：",
+            "「我要怎么做？」",
+            "「会遇到什么困难？」",
+            "",
+            "规划你的大方向，",
+            "同时把它分解成更小的目标。",
+            "不是十年的计划，",
+            "是接下来两周能完成的。",
+            "",
+            "提前想好障碍。",
+            "就像在船上，",
+            "船要沉了，",
+            "不是下沉时才开始找救生衣。",
+            "你早就该知道在哪。"
+          ],
+          "visualCues": ["目标分解示例图"],
+          "duration": "1分30秒"
+        },
+        {
+          "sectionTitle": "结尾",
+          "lines": [
+            "总结一下今天的关键信息。",
+            "",
+            "第一，梦想板可能适得其反。",
+            "幻想成功会降低你的行动动力。",
+            "",
+            "第二，奥运冠军都在用视觉聚焦。",
+            "收窄到一个点，速度提升27%。",
+            "",
+            "第三，设定目标的同时要规划障碍。",
+            "提前想好B计划。",
+            "",
+            "与其做梦想板，",
+            "不如盯着一个点。",
+            "",
+            "下次跑步或定目标的时候，",
+            "试试把视野收窄。",
+            "",
+            "告诉我，",
+            "你试过之后效果怎么样？"
+          ],
+          "visualCues": ["总结文字"],
+          "duration": "1分钟"
+        }
+      ]
+    },
+    "productionNotes": {
+      "visualCues": [
+        "开场用梦想板图片制造视觉冲击",
+        "奥运选手照片建立权威感",
+        "实验数据用大号数字突出",
+        "聚焦效果用示意图演示",
+        "结尾用文字总结强化记忆"
+      ],
+      "textOverlays": [
+        "27%",
+        "17%",
+        "视觉聚焦",
+        "盯着一个点"
+      ],
+      "paceChanges": [
+        "开场反常识需要慢速，让信息消化",
+        "数据部分需要停顿，强调数字",
+        "实操部分需要清晰，节奏放慢"
+      ]
+    },
+    "spreadStrategy": {
+      "thumbnailConcept": "一个正在跑步的人，周围模糊，只有前方一个光点。文字：奥运冠军的秘密",
+      "keywordsToPlant": ["视觉聚焦", "目标设定", "奥运冠军", "27%"],
+      "hookForShorts": "一个动作提升27%运动表现，奥运冠军都在用"
+    },
+    "qualityChecklist": {
+      "infoIncrement": "有，梦想板无效+视觉聚焦技巧+目标分解方法",
+      "logicChain": "是，反常识→案例→数据→实操→补充",
+      "emotionRhythm": "是，反常识惊讶→冠军故事好奇→数据震惊→实操清晰→总结踏实",
+      "actionable": "是，聚焦一个点的具体操作方法",
+      "memorable": "是，「与其做梦想板，不如盯着一个点」"
+    }
+  }
+}
