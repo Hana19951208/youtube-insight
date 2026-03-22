@@ -1,0 +1,13 @@
+{
+  "channels": [
+    {
+      "id": "UC2D2CMWXMOVWx7giW1n3LIg",
+      "name": "Huberman Lab",
+      "slug": "huberman-lab",
+      "url": "https://www.youtube.com/@hubermanlab"
+    }
+  ],
+  "settings": {
+    "maxVideosPerChannel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "d:\\Codes\\youtube-insight\\.claude"
+    ],
+    "allow": [
+      "Bash(npm install:*)"
+    ]
+  }
+}
