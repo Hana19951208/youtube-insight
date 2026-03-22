@@ -6,6 +6,7 @@ interface VideoCardProps {
 
 export default function VideoCard({ video }: VideoCardProps) {
   const formatDate = (dateString: string) => {
+    if (!dateString) return '未知日期';
     return new Date(dateString).toLocaleDateString('zh-CN');
   };
 
@@ -23,39 +24,43 @@ export default function VideoCard({ video }: VideoCardProps) {
   return (
     <a
       href={`/video/${video.videoId}`}
-      className="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden"
+      className="block bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group"
     >
-      <div className="aspect-video relative">
+      <div className="aspect-video relative overflow-hidden">
         <img
-          src={video.thumbnailUrl}
+          src={video.thumbnailUrl || `https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
           alt={video.videoTitle}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         {video.hasScript && (
-          <span className="absolute top-2 right-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
+          <span className="absolute top-3 right-3 bg-green-500 text-white text-xs px-3 py-1 rounded-full font-medium shadow">
             已生成口播稿
           </span>
         )}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
       </div>
 
-      <div className="p-4">
-        <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
+      <div className="p-5">
+        <h3 className="font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
           {video.videoTitle}
         </h3>
 
-        <p className="text-sm text-gray-600 mb-2">
-          {video.channelName} · {formatDate(video.publishedAt)}
-        </p>
+        <div className="flex items-center gap-2 text-sm text-gray-500 mb-3">
+          <span className="bg-gray-100 px-2 py-0.5 rounded text-xs">{video.channelName}</span>
+          <span>•</span>
+          <span>{formatDate(video.publishedAt)}</span>
+        </div>
 
-        <p className="text-sm text-gray-700 mb-3 line-clamp-3">
+        <p className="text-sm text-gray-600 mb-4 line-clamp-2">
           {video.overviewSummary}
         </p>
 
-        <div className="flex items-center justify-between text-sm text-gray-500">
+        <div className="flex items-center justify-between pt-3 border-t border-gray-100">
           <div className="flex items-center gap-1">
             {renderStars(video.creationValueScore)}
+            <span className="text-xs text-gray-400 ml-1">({video.creationValueScore}/5)</span>
           </div>
-          <span>{video.insightCount} 个观点</span>
+          <span className="text-xs text-blue-600 font-medium">{video.insightCount} 个核心观点</span>
         </div>
       </div>
     </a>

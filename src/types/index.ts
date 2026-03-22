@@ -57,7 +57,7 @@ export interface AnalysisResult {
   };
   overview: {
     oneSentenceSummary: string;
-    coreInsightsSummary: string[];
+    coreInsightsSummary: string | string[];
     targetAudience: string;
     creationValue: {
       score: number;

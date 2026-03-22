@@ -34,7 +34,7 @@ interface VideoAnalysis {
 }
 
 // 获取所有已分析视频
-router.get('/videos', (req, res) => {
+router.get('/videos', async (req, res) => {
   const analysesDir = path.join(process.cwd(), 'data', 'analyses');
 
   if (!fs.existsSync(analysesDir)) {
@@ -45,11 +45,24 @@ router.get('/videos', (req, res) => {
   const videos: any[] = [];
   const channelMap = new Map();
 
+  // 获取代理配置
+  const proxyUrl = process.env.HTTPS_PROXY || process.env.HTTP_PROXY;
+  const https = await import('https');
+  const http = await import('http');
+
+  const fetchThumbnail = (videoId: string): string => {
+    // 使用 YouTube 官方缩略图格式
+    return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+  };
+
   for (const file of files) {
     try {
       const videoId = file.replace('.json', '');
       const filePath = path.join(analysesDir, file);
       const data: VideoAnalysis = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
+      // 获取缩略图
+      const thumbnailUrl = data.meta.thumbnailUrl || fetchThumbnail(videoId);
 
       videos.push({
         videoId: data.meta.videoId,
@@ -57,7 +70,7 @@ router.get('/videos', (req, res) => {
         videoUrl: `https://www.youtube.com/watch?v=${data.meta.videoId}`,
         channelName: data.meta.channelName,
         channelSlug: data.meta.channelSlug,
-        thumbnailUrl: data.meta.thumbnailUrl,
+        thumbnailUrl: thumbnailUrl,
         publishedAt: data.meta.publishedAt,
         analyzedAt: data.meta.analyzedAt,
         overviewSummary: data.overview?.oneSentenceSummary || '',
@@ -97,6 +110,12 @@ router.get('/videos/:videoId', (req, res) => {
 
   try {
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
+    // 确保有缩略图
+    if (!data.meta.thumbnailUrl) {
+      data.meta.thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+    }
+
     res.json({ analysis: data });
   } catch (error) {
     res.status(500).json({ error: 'Failed to read analysis' });

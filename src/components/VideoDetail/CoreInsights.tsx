@@ -2,9 +2,23 @@ import { AnalysisResult } from '../../types';
 
 interface CoreInsightsProps {
   insights: AnalysisResult['insights'];
+  videoId: string;
 }
 
-export default function CoreInsights({ insights }: CoreInsightsProps) {
+// 将 MM:SS 转换为秒数
+const parseTimestamp = (timeStr: string): number => {
+  const parts = timeStr.split(':');
+  if (parts.length === 2) {
+    return parseInt(parts[0]) * 60 + parseInt(parts[1]);
+  } else if (parts.length === 3) {
+    return parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseInt(parts[2]);
+  }
+  return 0;
+};
+
+export default function CoreInsights({ insights, videoId }: CoreInsightsProps) {
+  const youtubeBaseUrl = `https://www.youtube.com/watch?v=${videoId}`;
+
   return (
     <section className="bg-white rounded-lg shadow p-6 mb-6">
       <h2 className="text-xl font-bold text-gray-900 mb-4">核心观点</h2>
@@ -17,9 +31,15 @@ export default function CoreInsights({ insights }: CoreInsightsProps) {
             <div className="flex items-center justify-between mb-2">
               <h3 className="font-bold text-gray-900">{insight.title}</h3>
               {insight.timeRange && (
-                <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                <a
+                  href={`${youtubeBaseUrl}&t=${parseTimestamp(insight.timeRange.start)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-600 bg-blue-50 px-2 py-1 rounded hover:bg-blue-100 transition-colors"
+                  title="跳转到 YouTube"
+                >
                   {insight.timeRange.start} - {insight.timeRange.end}
-                </span>
+                </a>
               )}
             </div>
             <p className="text-gray-700 mb-3">{insight.coreArgument}</p>
@@ -53,9 +73,15 @@ export default function CoreInsights({ insights }: CoreInsightsProps) {
                   </p>
                 )}
                 {insight.goldenQuote.timestamp && (
-                  <span className="text-yellow-600 text-xs">
+                  <a
+                    href={`${youtubeBaseUrl}&t=${parseTimestamp(insight.goldenQuote.timestamp)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-yellow-600 text-xs hover:underline"
+                    title="跳转到 YouTube"
+                  >
                     @ {insight.goldenQuote.timestamp}
-                  </span>
+                  </a>
                 )}
               </div>
             )}
