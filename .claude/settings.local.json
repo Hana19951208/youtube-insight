@@ -1,10 +1,16 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(node -e:*)"
+    ],
     "additionalDirectories": [
       "d:\\Codes\\youtube-insight\\.claude"
-    ],
-    "allow": [
-      "Bash(npm install:*)"
     ]
   }
 }
