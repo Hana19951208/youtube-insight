@@ -31,13 +31,14 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Data
-data/analyses/*.json
+
+# Claude
+.claude/settings.local.json
 
 # Temp files
 temp_*.json
 temp_*.xml
 temp_*.txt
 
-# Keep transcripts but not analyses
-!data/transcripts/*.json
+
+data/transcripts/*.json
