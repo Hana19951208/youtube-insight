@@ -42,6 +42,8 @@ GET https://api.supadata.ai/v1/youtube/transcript?video_id={videoId}
 Headers: x-api-key: {从.env读取SUPADATA_API_KEY}
 ```
 
+**保存字幕文件**：将获取到的字幕原始数据保存到 `data/transcripts/{videoId}.json`，供后续 `/match-material` 使用。
+
 #### 4.3 分析内容
 分析字幕，输出7个模块：
 
