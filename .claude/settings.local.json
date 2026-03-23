@@ -7,7 +7,8 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push)",
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "Bash(npx tsx:*)"
     ],
     "additionalDirectories": [
       "d:\\Codes\\youtube-insight\\.claude"
