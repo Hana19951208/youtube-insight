@@ -281,7 +281,11 @@
     ],
     "parallels": [
       {
-        "insights": ["insight-1", "insight-2", "insight-3"],
+        "insights": [
+          "insight-1",
+          "insight-2",
+          "insight-3"
+        ],
         "description": "NVIDIA平台发展历程：从CUDA 20年到新平台发布再到Blackwell架构"
       }
     ],
@@ -408,7 +412,9 @@
           "quote": "You think that we mostly talk about one of them. It's related to CUDA-X. Our systems is another platform. And now we have a new platform called AI Factories.",
           "analogy": "就像苹果不只是卖iPhone，还有App Store和服务"
         },
-        "quotesToUse": ["And now we have a new platform called AI Factories."],
+        "quotesToUse": [
+          "And now we have a new platform called AI Factories."
+        ],
         "transition": "那这个AI Factories到底是什么？为什么这么重要？",
         "emotionCurve": "从疑惑到好奇",
         "pacing": "慢速",
@@ -426,7 +432,9 @@
         "supportingElements": {
           "analogy": "Token就像建房子的砖头，没有砖头就盖不了房子"
         },
-        "quotesToUse": ["This is how intelligence is made. A new kind of factory. Generator of tokens."],
+        "quotesToUse": [
+          "This is how intelligence is made. A new kind of factory. Generator of tokens."
+        ],
         "transition": "明白了这个概念，我们再来看NVIDIA的技术突破。",
         "emotionCurve": "从好奇到恍然",
         "pacing": "中速",
@@ -445,7 +453,9 @@
         "supportingElements": {
           "data": "NVFP4精度可以在不损失性能的情况下提升能效"
         },
-        "quotesToUse": ["We can inference NVFP4 without loss of performance and boost in performance and energy efficiency."],
+        "quotesToUse": [
+          "We can inference NVFP4 without loss of performance and boost in performance and energy efficiency."
+        ],
         "transition": "但最让我震撼的是他对未来的判断。",
         "emotionCurve": "从恍然到期待",
         "pacing": "中速",
@@ -464,7 +474,9 @@
         "supportingElements": {
           "analogy": "现在的AI是大脑发达但四肢不发达，物理AI就是让AI长出手脚"
         },
-        "quotesToUse": ["This is the age of physical AI and robotics."],
+        "quotesToUse": [
+          "This is the age of physical AI and robotics."
+        ],
         "transition": "总结一下今天的关键信息。",
         "emotionCurve": "从期待到激动",
         "pacing": "慢速",
@@ -515,7 +527,9 @@
             "今天我用几分钟给你讲清楚，",
             "最重要的几个信息。"
           ],
-          "visualCues": ["GTC大会现场画面"],
+          "visualCues": [
+            "GTC大会现场画面"
+          ],
           "duration": "30秒"
         },
         {
@@ -538,7 +552,9 @@
             "NVIDIA已经不只是卖芯片了，",
             "它在卖一整套解决方案。"
           ],
-          "visualCues": ["三大平台示意图"],
+          "visualCues": [
+            "三大平台示意图"
+          ],
           "duration": "1分30秒"
         },
         {
@@ -563,7 +579,9 @@
             "以前处理数据靠CPU，",
             "现在靠Token，完全不一样。"
           ],
-          "visualCues": ["Token概念图"],
+          "visualCues": [
+            "Token概念图"
+          ],
           "duration": "1分30秒"
         },
         {
@@ -582,7 +600,9 @@
             "这意味着AI应用的",
             "使用成本会大幅下降。"
           ],
-          "visualCues": ["Blackwell GPU图片"],
+          "visualCues": [
+            "Blackwell GPU图片"
+          ],
           "duration": "1分30秒"
         },
         {
@@ -607,7 +627,9 @@
             "这个市场规模，",
             "可能是下一个万亿级别。"
           ],
-          "visualCues": ["机器人/自动驾驶示意图"],
+          "visualCues": [
+            "机器人/自动驾驶示意图"
+          ],
           "duration": "2分钟"
         },
         {
@@ -633,7 +655,9 @@
             "记住老黄说的：",
             "这是物理AI的时代。"
           ],
-          "visualCues": ["总结文字"],
+          "visualCues": [
+            "总结文字"
+          ],
           "duration": "1分30秒"
         }
       ]
@@ -661,7 +685,14 @@
     },
     "spreadStrategy": {
       "thumbnailConcept": "黄仁勋在演讲的照片，文字：GTC2024核心解读",
-      "keywordsToPlant": ["NVIDIA", "GTC", "AI Factories", "Blackwell", "CUDA", "物理AI"],
+      "keywordsToPlant": [
+        "NVIDIA",
+        "GTC",
+        "AI Factories",
+        "Blackwell",
+        "CUDA",
+        "物理AI"
+      ],
       "hookForShorts": "老黄说这是物理AI的时代，这到底是什么意思？"
     },
     "qualityChecklist": {
@@ -670,6 +701,3637 @@
       "emotionRhythm": "是，好奇→恍然→期待→激动→踏实",
       "actionable": "是，给出了理解行业趋势的框架",
       "memorable": "是，Token和物理AI是两个记忆点"
+    },
+    "materialMatches": {
+      "generatedAt": "2026-03-23T00:18:58.581Z",
+      "videoId": "jIviHI7fqyc",
+      "totalLines": 71,
+      "matchedLines": 71,
+      "unmatchedCount": 0,
+      "unmatchedLines": [],
+      "matches": [
+        {
+          "scriptLine": "昨天，",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "NVIDIA举办了GTC大会。",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这是AI领域最重要的年度会议，",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "没有之一。",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "黄仁勋讲了两个半小时，",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "发布了大量新产品和新技术。",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "但我发现很多人没听懂在讲什么。",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "今天我用几分钟给你讲清楚，",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "最重要的几个信息。",
+          "section": "开场",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "首先问一个问题：",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "你觉得NVIDIA是做什么的？",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "很多人会说：卖显卡的。",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "错。",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "现在它的业务主要分三个部分。",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "第一个，CUDA-X，这是软件平台。",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "第二个，Systems，这是硬件系统。",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "第三个，AI Factories，",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这是今年新发布的，",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "专门帮企业训练AI模型。",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "换句话说，",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "NVIDIA已经不只是卖芯片了，",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "它在卖一整套解决方案。",
+          "section": "NVIDIA的转型",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Welcome to GTC!",
+              "subtitleTimestamp": "03:28",
+              "videoStart": "03:27",
+              "videoEnd": "03:30",
+              "duration": 4,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I just want to remind you, this is a tech conference. All these",
+              "subtitleTimestamp": "03:36",
+              "videoStart": "03:35",
+              "videoEnd": "03:43",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "people lining up, So early in the morning, all of you in here, it's great",
+              "subtitleTimestamp": "03:42",
+              "videoStart": "03:41",
+              "videoEnd": "03:48",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "开场的时候老黄说了句话，",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "我觉得特别重要。",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "This is how intelligence is made.",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这就是智能的制造方式。",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "A new kind of factory.",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "一种新型的工厂。",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "Generator of tokens.",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "Token生成器。",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "The building blocks of AI.",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "AI的构建块。",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "Token可以理解为AI消化的单词，",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "是AI处理信息的最小单位。",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "以前处理数据靠CPU，",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "现在靠Token，完全不一样。",
+          "section": "Token是什么",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "This is how intelligence is made. A new kind of factory.",
+              "subtitleTimestamp": "00:08",
+              "videoStart": "00:07",
+              "videoEnd": "00:14",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Generator of tokens. The building blocks of AI.",
+              "subtitleTimestamp": "00:15",
+              "videoStart": "00:14",
+              "videoEnd": "00:19",
+              "duration": 6,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "Tokens have opened a new frontier, turning data into knowledge",
+              "subtitleTimestamp": "00:24",
+              "videoStart": "00:23",
+              "videoEnd": "00:30",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这次发布了Blackwell架构的新GPU。",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "用了一种新技术叫NVFP4。",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "可以在不损失精度的情况下，",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "大幅提升推理速度。",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "而且更省电。",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "对企业来说，",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "省电等于省钱。",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这意味着AI应用的",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "使用成本会大幅下降。",
+          "section": "Blackwell技术",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "moment. The inference inflection has arrived. Last year,",
+              "subtitleTimestamp": "52:21",
+              "videoStart": "52:20",
+              "videoEnd": "52:28",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "at this time, I said that where I",
+              "subtitleTimestamp": "52:28",
+              "videoStart": "52:27",
+              "videoEnd": "52:35",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "stood at that moment in time, we saw about $500",
+              "subtitleTimestamp": "52:34",
+              "videoStart": "52:33",
+              "videoEnd": "52:39",
+              "duration": 7,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "但最让我震撼的，",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "是演讲结尾老黄说的这句话：",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "This is the age of",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "physical AI and robotics.",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这是物理AI和机器人的时代。",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "什么意思？",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "现在的AI主要处理文字和图片，",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "但物理AI能理解和操作物理世界。",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "比如机器人，",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "比如自动驾驶，",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "比如工厂自动化。",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这个市场规模，",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "可能是下一个万亿级别。",
+          "section": "物理AI未来",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "总结一下今天的关键信息。",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "第一，NVIDIA已经转型成平台公司，",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "不只是卖芯片。",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "第二，CUDA 20年建立的生态护城河，",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "不是一两年能赶上的。",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "第三，Blackwell技术领先至少一代，",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "性能大幅提升的同时还更省电。",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "第四，物理AI是未来十年最大的机会，",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "老黄已经在布局了。",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "与其盯着股票涨跌，",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "不如看看老黄在布局什么。",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "记住老黄说的：",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        },
+        {
+          "scriptLine": "这是物理AI的时代。",
+          "section": "总结",
+          "candidates": [
+            {
+              "rank": 1,
+              "confidence": 0.9,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "intelligently across scenarios. We ask the car to narrate its actions.",
+              "subtitleTimestamp": "2:09:32",
+              "videoStart": "2:09:31",
+              "videoEnd": "2:09:38",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 2,
+              "confidence": 0.75,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "I'm changing lanes to the right to follow my route. Explain its thinking as it",
+              "subtitleTimestamp": "2:09:38",
+              "videoStart": "2:09:37",
+              "videoEnd": "2:09:45",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            },
+            {
+              "rank": 3,
+              "confidence": 0.6000000000000001,
+              "matchStrategy": "timeAnchor",
+              "subtitleText": "makes decisions. There's a double parked vehicle in my lane. I'm going around it.",
+              "subtitleTimestamp": "2:09:44",
+              "videoStart": "2:09:43",
+              "videoEnd": "2:09:50",
+              "duration": 8,
+              "expansion": {
+                "before": 1,
+                "after": 1,
+                "reason": "默认扩展1秒"
+              }
+            }
+          ]
+        }
+      ]
     }
   }
 }
